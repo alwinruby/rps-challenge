@@ -90,25 +90,10 @@ $ coveralls report
 
 This repo works with [Coveralls](https://coveralls.io/) to calculate test coverage statistics on each pull request.
 
-### Alwin's Notes
-Used Battle as a guide for User story one.
-app.rb is game.rb in this rps-challenge.
-
-first spec file is called register_marketeer_name_spec.rb
-
-index.erb is the home page at the root.
-
-play.erb is the page with the players name displayed.
-
-Redid game.rb to include sessions
-
-Sessions 1 and 2 done following the Battle game as a template.
-Needed help on part 3 from class mates.
-
-Got stuck on randomised opponent functionality so used the walkthrough as guide.
-
-Submitting incomplete Challenge
-1. Display name - done
-2. Choose Rock Paper Scissors - done
-3. Opponent chooses Rock Paper Scissors - part completed
-4. Winner declared - not done. 
+###  Notes
+ This is the application as done with the walkthrough
+ User Story 1 - registering a name
+    Steps - Create a register spec ruby file to test
+          - build the app.rb with session get and post methods
+          - create a basic play.erb file
+    Run and pass rspec
